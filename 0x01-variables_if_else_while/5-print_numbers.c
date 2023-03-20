@@ -1,22 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: print all single digit numbers
+ * main - main function
  *
  * Rreturn: Always 0 (Success)
 */
 
 int main(void)
 {
-	int digit = 0;
+	int i;
 
-	while (digit <= 9)
-	{
-		printf("%i", digit);
-		digit++;
-	}
+	for (i = 0 ; i < 10 ; i++)
+		printf("%d", i);
+
 	printf("\n");
 
 	return (0);
