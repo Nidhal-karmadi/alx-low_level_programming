@@ -5,7 +5,7 @@
  *
  * Description: print all single digit numbers
  *
- * Rreturn: Always 0 (success)
+ * Rreturn: Always 0 (Success)
 */
 
 int main(void)
