@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ *
  * Description: print all single digit numbers
  *
  * Rreturn: Always 0 (success)
