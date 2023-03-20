@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: print all sinfle digit numbers
+ * Description: print all single digit numbers
  *
  * Rreturn: Always 0 (success)
 */
