@@ -1,1 +1,1 @@
-This is C - Static libraries
+readme file
