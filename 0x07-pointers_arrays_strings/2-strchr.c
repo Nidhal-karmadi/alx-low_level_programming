@@ -5,16 +5,17 @@
  * @c: input
  * Return: Always 0 (Success)
  */
-char *_strchr(char *s, char c){
+char *_strchr(char *s, char c)
+{
+	int itr;
 
-while(*s != '\0'){
-	if (*s == c){
-		return s;
+	for (itr = 0; s[itr] >= '\0' ; itr++)
+	{
+		if (s[itr] == c)
+		{
+			return (s + itr);
+		}
 	}
-	s++;
+
+	return ('\0');
 }
-	if (*s == c){
-		return s;
-	}
-return null; }
-
